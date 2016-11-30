@@ -12,7 +12,6 @@ function LunchCheckController($scope){
 		var txt = $scope.inputText;
 		var meal = txt.split(',');
 		cleanArray(meal);
-		console.log(meal.length);
 		if(txt.length == 0){
 			$scope.inputVal ="Please enter data first";			
 			changeColor(false);
